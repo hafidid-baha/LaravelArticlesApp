@@ -16,9 +16,6 @@ class PagesController extends Controller
     }
 
     public function services(){
-        $data['title'] = 'services page';
-        $data['services'] = ['web devlopment','web desing','android devlopment','android design'];
-
-        return view('pages.services')->with($data);
+        return view('pages.services');
     }
 }
